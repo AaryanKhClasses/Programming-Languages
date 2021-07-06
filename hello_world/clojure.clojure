@@ -1,0 +1,9 @@
+; Clojure is a dynamic and functional dialect of the Lisp programming language on the Java platform. Like other Lisp dialects, Clojure treats code as data and has a Lisp macro system.
+; Full Name: Clojure
+; Developer: Rich Heckey
+; File Type: N/A
+; Wiki: https://en.wikipedia.org/wiki/Clojure
+
+(defn -main ; The main function which executes the code inside
+    [& args] ; Defining the args
+    (printIn "Hello World!")) ; Prints the "Hello World!"
